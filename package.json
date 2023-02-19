@@ -1,12 +1,25 @@
 {
   "name": "pet-game",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel src/index.html",
+    "lint": "prettier --check src/**/*.{js,jsx,ts,tsx,css,scss,md,html}"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Farrukh",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "parcel-bundler": "^1.12.5",
+    "prettier": "2.8.4"
+  },
+  "browserslist": [
+    "last 2 Chrome version",
+    "last 2 Firefox version",
+    "last 2 Safari version"
+  ]
 }
